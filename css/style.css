@@ -141,6 +141,7 @@ a {
   color: white;
   margin-left: auto;
   display: none;
+  cursor: pointer;
 }
 
 .navbar .container {
@@ -855,6 +856,7 @@ a {
     -ms-transition: 1s;
     -o-transition: 1s;
   }
+  
   .navbar .container .nav-menu a {
     display: block;
     padding-block: 10px;
