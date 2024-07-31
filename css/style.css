@@ -839,6 +839,17 @@ a {
   .portfolio .gallary .col {
     width: calc((100% - 30px) / 2);
   }
+  .title p {
+   
+    font-size: 2.5rem;
+  }
+  .title h2 {
+    font-size: 6rem;
+   
+  }
+  .portfolio {
+    padding: 20px;
+  }
 }
 @media (max-width: 768px) {
   .navbar .container .nav-menu {
@@ -855,6 +866,15 @@ a {
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
+  }
+  
+  .title p {
+   
+    font-size: 2.5rem;
+  }
+  .title h2 {
+    font-size: 6rem;
+   
   }
   
   .navbar .container .nav-menu a {
@@ -881,8 +901,14 @@ a {
   html {
     font-size: 12px;
   }
+  .portfolio {
+    padding: 10px;
+  }
   .title h2 {
     font-size: 4rem;
+  }
+  .title p {
+    font-size: 2rem;
   }
   .about .counter .item,
   .portfolio .gallary .col {
